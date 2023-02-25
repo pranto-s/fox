@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Podkova', serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body {
+  font-size: 15pt;
+  background-color: #292929;
+}
+
+nav {
+  background-color: black;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  
+font-family: 'Gloock', serif;
+  color: #FFCC00;
+  font-size: 40px;
+  letter-spacing: 1px;
+  
+}
+
+.fox {
+  width: 100%;
+  padding-top: 90px;
+
+}
+
+h3 {
+  color: white;
+  margin: 10px;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  text-align: left;
+}
+
+.lite {
+  color: black;
+  text-align: center;
+  padding: 5px;
+  margin: 30px 100px 0 0px;
+  background-color: #FFCC00;
+  text-align: left;
+}
+
+.listitem {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  list-style: none;
+  margin: 10px;
+  word-spacing: 80px;
+}
+
+button {
+  color: #FFCC00;
+  border: 2px solid #FFCC00;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius:  3px;
+}
+h3{
+  font-size: 50px;
+}
+/*section b*/
+.b{
+  background-image: url("fox2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.pb{
+ 
+  padding-top: 20px;
+}
+h1{
+  font-size: 100px;
+}
+.lern{
+  background-color: black;
+  
+  margin: 10px;
+  border: none;
+}
+.end{
+  background-color: blue;
+  margin: 30px;
+}
+.endp{
+  font-size: 13px;
+  padding: 10px;
+}
